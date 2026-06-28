@@ -1,0 +1,176 @@
+body {
+  background: #ffffff;
+  color: #212529;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background: #23272b;
+  color: #f8f9fa;
+  position: relative;
+}
+
+.sidebar .brand {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.sidebar .brand-mark {
+  width: 32px;
+  height: 32px;
+  border-radius: 0.35rem;
+  background: #f8f9fa;
+  color: #23272b;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.sidebar .menu-link {
+  color: rgba(255, 255, 255, 0.92);
+  border-radius: 0.45rem;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.98rem;
+}
+
+.sidebar .menu-link i {
+  opacity: 0.95;
+}
+
+.sidebar .menu-link.active {
+  background: #3d74f0;
+  color: #fff;
+}
+
+.sidebar .menu-link:not(.active):hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.user-box {
+  color: #f8f9fa;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6c757d, #adb5bd);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.user-menu {
+  left: 14px;
+  bottom: 56px;
+  min-width: 130px;
+  display: block;
+  background: #3a3f45;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.18);
+}
+
+.user-menu .dropdown-item {
+  color: #f1f3f5;
+}
+
+.user-menu .dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.content {
+  padding: 3rem 2rem 2rem;
+}
+
+.page-title {
+  font-size: clamp(2.6rem, 4vw, 4.3rem);
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.lead-muted {
+  color: #6c757d;
+  font-size: 1.05rem;
+}
+
+.pricing-card,
+.album-card,
+.product-card,
+.contact-card {
+  box-shadow: 0 0.15rem 0.8rem rgba(0, 0, 0, 0.08);
+  border-color: #dadce0;
+}
+
+.pricing-card .card-header {
+  background: #f8f9fa;
+  font-size: 1.2rem;
+}
+
+.price {
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.thumbnail-placeholder {
+  height: 198px;
+  background: #5f6368;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 1.05rem;
+}
+
+.album-card .card-body {
+  padding: 0.85rem 1rem 1rem;
+}
+
+.album-actions .btn {
+  padding: 0.2rem 0.55rem;
+}
+
+.contact-wrap {
+  max-width: 920px;
+}
+
+.contact-card .form-control,
+.contact-card .input-group-text {
+  border-color: #dadce0;
+}
+
+.contact-text h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.site-header,
+.site-footer {
+  padding: 0.75rem 0;
+}
+
+.site-footer {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+
+  .content {
+    padding: 2rem 1rem;
+  }
+}
